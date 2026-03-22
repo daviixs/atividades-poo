@@ -1,0 +1,25 @@
+public class Apartamento {
+    private final int numero;
+    private final int andar;
+
+    public Apartamento(int numero, int andar) {
+        this.numero = numero;
+        this.andar = andar;
+    }
+
+    public int getNumero() {
+        return numero;
+    }
+
+    public int getAndar() {
+        return andar;
+    }
+
+    @Override
+    public String toString() {
+        return "Apartamento{" +
+                "numero=" + numero +
+                ", andar=" + andar +
+                '}';
+    }
+}
